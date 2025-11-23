@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0 auto;
+
+  font-family: "Inter", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8;
+  background: var(--color-grey-900, rgba(20, 20, 20, 1));
+}
+
+main {
+  width: 384px;
+  height: 611px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--spacing-300, 24);
+  padding: var(--spacing-500, 40px);
+  border-radius: 12px;
+  background: var(--color-grey-800, rgba(31, 31, 31, 1));
+}
+
+img {
+  margin: 1.5rem 0;
+  width: 88px;
+  height: 88px;
+  border-radius: 999px;
+}
+
+h1 {
+  width: 304px;
+  height: 21px;
+
+  color: var(--color-white, rgba(255, 255, 255, 1));
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+h2 {
+  width: 304px;
+  height: 21px;
+
+  color: var(--color-green, rgba(196, 248, 42, 1));
+  font-family: Inter;
+  font-size: 0.875;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+p {
+  width: 304px;
+  height: 21px;
+
+  color: var(--color-white, rgba(255, 255, 255, 1));
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+button {
+  width: 304px;
+  height: 45px;
+  margin: 0.5rem 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-150, 12px);
+
+  border: none;
+  border-radius: 8px;
+  background: var(--color-grey-700, rgba(51, 51, 51, 1));
+
+  color: var(--color-white, rgba(255, 255, 255, 1));
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: var(--color-green, rgba(196, 248, 42, 1));
+}

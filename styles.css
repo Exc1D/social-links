@@ -40,6 +40,11 @@ img {
   width: 88px;
   height: 88px;
   border-radius: 999px;
+
+  transition: transform 0.3s ease-in-out;
+}
+img:hover {
+  transform: scale(1.2);
 }
 
 h1 {
@@ -102,6 +107,10 @@ button {
   line-height: 150%;
   letter-spacing: 0%;
   text-align: left;
+}
+button:hover {
+  color: black;
+  background-color: var(--color-green, rgba(196, 248, 42, 1));
 }
 
 .attribution {

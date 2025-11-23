@@ -65,7 +65,7 @@ h2 {
 
   color: var(--color-green, rgba(196, 248, 42, 1));
   font-family: Inter;
-  font-size: 0.875;
+  font-size: 0.875rem;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0%;

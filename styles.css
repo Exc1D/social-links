@@ -21,25 +21,29 @@ body {
 }
 
 main {
-  width: 24rem;
-  height: 38.1875rem;
-  margin: auto;
+  width: 384px;
+  height: 611px;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  gap: var(--spacing-300, 24);
-  padding: var(--spacing-500, 2.5rem);
-  border-radius: 0.75rem;
+  padding: var(--spacing-500, 40px);
+  border-radius: 12px;
   background: var(--color-grey-800, rgba(31, 31, 31, 1));
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
-  margin: auto;
-  width: 5.5rem;
-  height: 5.5rem;
-  border-radius: 62.4375rem;
+  width: 88px;
+  height: 88px;
+  margin-bottom: 1.5rem;
+  border-radius: 999px;
 
   transition: transform 0.3s ease-in-out;
 }
@@ -48,8 +52,10 @@ img:hover {
 }
 
 h1 {
+  /* title */
   width: 19rem;
-  height: 1.3125rem;
+  height: 36px;
+  margin: 0;
 
   color: var(--color-white, rgba(255, 255, 255, 1));
   font-size: 1.5rem;
@@ -61,7 +67,8 @@ h1 {
 
 h2 {
   width: 19rem;
-  height: 1.3125rem;
+  height: 21px;
+  margin: 0 auto 1.5rem auto;
 
   color: var(--color-green, rgba(196, 248, 42, 1));
   font-family: Inter;
@@ -74,35 +81,44 @@ h2 {
 
 p {
   width: 19rem;
-  height: 1.3125rem;
+  height: 21px;
 
   color: var(--color-white, rgba(255, 255, 255, 1));
   font-family: Inter;
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
   text-align: center;
 }
 
+#links {
+  width: 19rem;
+  height: 289px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 button {
   width: 19rem;
-  height: 2.8125rem;
-  margin: 0.5rem 0;
+  height: 2.813rem;
+  margin: 1rem 0;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: var(--spacing-150, 0.75rem);
+  padding: var(--spacing-150, 12px);
 
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   background: var(--color-grey-700, rgba(51, 51, 51, 1));
 
   color: var(--color-white, rgba(255, 255, 255, 1));
   font-family: Inter;
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0%;
@@ -114,7 +130,8 @@ button:hover {
 }
 
 .attribution {
-  font-size: 0.6875rem;
+  margin-top: 1rem;
+  font-size: 11px;
   text-align: center;
   color: white;
 }
